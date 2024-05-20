@@ -1,0 +1,13 @@
+{
+	"name": "ls_adlsgen2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "used to connect ADSL Gen 2 storage account",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adls0524btch.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDIyMEMwNDYxLUQ4MzktNDdGNS1BMkY3LUU5M0U3Q0JBODJDQV84OWViOGYxMS02NWJlLTQ2YzktOTM1Zi04NDdlMmZlMGRkODYiDQp9"
+		}
+	}
+}

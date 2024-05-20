@@ -1,0 +1,9 @@
+{
+	"name": "df-05-24-btch",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8aed3f41-7a93-48ef-8127-1c998dab9417",
+		"tenantId": "27608ce7-abf8-453e-9bc5-d02cd2ce4434"
+	}
+}
