@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-05-24-btch"
+		},
+		"ls_adlsgen2_accountKey": {
+			"value": ""
+		},
+		"ls_sqlserver_password": {
+			"value": ""
+		},
+		"ls_adlsgen2_properties_typeProperties_url": {
+			"value": "https://adls0524btch.dfs.core.windows.net/"
+		},
+		"ls_sqlserver_properties_typeProperties_server": {
+			"value": "DESKTOP-7UCVVP1"
+		},
+		"ls_sqlserver_properties_typeProperties_database": {
+			"value": "mydb"
+		},
+		"ls_sqlserver_properties_typeProperties_userName": {
+			"value": "myuser"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
