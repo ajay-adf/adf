@@ -14,8 +14,12 @@
 			"authenticationType": "SQL",
 			"userName": "myuser",
 			"password": {
-				"type": "SecureString",
-				"value": "**********"
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_akv_1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "pwd"
 			}
 		},
 		"connectVia": {

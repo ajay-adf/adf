@@ -1,0 +1,37 @@
+{
+	"name": "pl_tmblingwd_trg",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "vstart_dt",
+					"value": {
+						"value": "@pipeline().parameters.pstart_dt",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"pstart_dt": {
+				"type": "string"
+			}
+		},
+		"variables": {
+			"vstart_dt": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2024-05-30T04:28:41Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

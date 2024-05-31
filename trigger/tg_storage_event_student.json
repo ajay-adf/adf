@@ -1,0 +1,25 @@
+{
+	"name": "tg_storage_event_student",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_copy_data",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/osi-raw/blobs/student",
+			"blobPathEndsWith": "csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/3305ce20-a799-469d-bbe6-6ae2c4e5e73d/resourceGroups/rg_05_24_btch/providers/Microsoft.Storage/storageAccounts/adls0524btch",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
